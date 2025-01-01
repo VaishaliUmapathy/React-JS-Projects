@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F0F2F2;
+}
+h1{
+    text-align: center;
+    font-size: 40px
+}
+.flash-card{
+    padding: 20px;
+    max-height: 100vh;
+    margin: 0 auto; 
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.FlashCardsList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+     gap:10px;
+     margin:10px;
+     padding: 20px;
+     color:#3C4C59;
+     background-color:#baae96;
+     border:2px solid #171512;
+     border-radius: 10px;
+     width: 300px; 
+     height:200px; 
+     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ .none{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap:10px;
+     margin:10px;
+     padding: 20px;
+     color:#baae96;
+     background-color: #3C4C59;
+     border:2px solid #171512;
+     border-radius: 10px;
+     width: 300px; 
+     height:200px; 
+     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+.FlashCardsList:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3); 
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding:20px;
+}
