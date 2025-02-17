@@ -1,0 +1,49 @@
+.cal-div {
+    width: 550px;
+    height:300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #222;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .cal-div input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  
+  .cal-btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  .cal-btn button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s;
+  }
+  
+  .cal-btn button:hover {
+    background: #555;
+  }
+  
+  .cal-btn button:active {
+    background: #777;
+  }
+  
