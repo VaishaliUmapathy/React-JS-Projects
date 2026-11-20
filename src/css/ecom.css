@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+
+
+
+.list-item{
+  @apply pl-12
+}
+
+.footer {
+  @apply bg-gray-800 text-gray-200 py-4 text-center text-sm;
+}
+footer{
+  @apply py-8;
+}
+.footer-div {
+  @apply flex flex-wrap justify-center gap-8 px-4;
+}
+.foot-list {
+  @apply text-gray-500 max-w-xs;
+}
+.foot-list > h3{
+  @apply font-bold text-lg p-2
+}
+.foot-list >p{
+  @apply text-wrap leading-relaxed  ;
+  
+  }
+.foot-list > ul{
+  @apply p-4;
+}
+  .foot-list> form >button{
+  @apply p-2 m-4 border border-solid border-blue-500 bg-blue-500  rounded-lg text-gray-200 font-normal;
+}
+.foot-list > form>input{
+  @apply p-2 m-2  border border-solid border-black;
+}
+.foot-list> form{
+  @apply flex flex-col gap-4;
+}
+
+footer p:last-child {
+  @apply text-gray-500 mt-6;
+}

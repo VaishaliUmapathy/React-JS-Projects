@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", serif;
+    background-color: #fffcf7;
+}
+.section{
+    padding: 20px;
+    margin: 0px 50px;
+    border-radius: 10px;
+}
+.header > h1{
+    color: #425920;
+   font-style:italic ;
+   margin:0;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:50px;
+}
+.title{
+    color: #889b6c;
+    font-size: 20px;
+    text-align: center;
+    padding:20px;
+    margin:20px;
+    font-weight: bold;
+}
+.tour-place {
+    padding: 10px;
+    margin: 15px;
+    width: 350px;
+    height: 500px;
+    border: 2px solid #926039;
+    /* background-color: #3F9BA6; */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px  #9ca7a8;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.sub-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub-div>button{
+    background-color: #c1c594;
+    border: 2px solid #e1e7d7;
+    border-radius: 10px;
+    margin:20px;
+   padding:7px;
+   font-size: 15px;
+   font-weight: 600;
+   color:#233011
+   
+}
+.sub-div > button:hover{
+    margin-top:60px;
+    padding:10px;
+    transition: all 0.3s ease;
+}
+.sub-div >span{
+    color:#6d854c;
+    font-weight: 400;
+    padding:5px;
+    font-size: 25px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px rgba(55, 57, 57, 0.2);
+}
+.tour-place>h2{
+    text-align: center;
+    color: #312d18;
+    font-size: 35px;
+    font-style: italic;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tour-place>h1{
+    color:#f6f4eb;
+    text-align: center;
+}
+.tour-place > img {
+    width: 200px;
+    padding:10px;
+    background-color: #3F9BA6;
+    box-shadow: inset 10px 10px 20px #F2E2C4;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.tour-place > p{
+    text-align: center;
+    color: #36332b;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+}
+.tour-place > button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    background-color: #425920;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tour-place > button:hover {
+    background-color: #556b2f;
+}
+
+footer {
+    background-color: #425920;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+    font-size: 14px;
+
+}
+
+@media (max-width: 768px) {
+    .tour-place {
+        width: 90%;
+        height: auto;
+    }
+
+    .tour-place > img {
+        width: 100%;
+        height: auto;
+    }
+}

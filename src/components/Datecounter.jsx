@@ -1,5 +1,5 @@
 import { useState } from "react";
-import '../css/date.css'
+import '../components/date.css'
 function DateCounter(){
     const [step, setStep] = useState(1);
     const [count, setCount] = useState(0);
